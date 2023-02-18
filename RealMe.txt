@@ -1,0 +1,12 @@
+This file explained how I install C++ compilers to VSCODE.
+1. Download VScode.
+2. Install C/C++ extensions in VScode marketplace.
+3. Go here: https://www.mingw-w64.org/downloads/
+4. Select WinLibs.com version
+5. Select UCRT 64 version and download the file (Alawys choose x86*64 if you are using modern windows)
+6. Extract it.
+7. Put it in the "Program Files" directory.
+8. Search for "Edit environment variables"
+9. In the "Use variables for [username]", choose "path" -> Edit
+10. Add your path (Ends with [...\mingw64\bin])
+11. Go cmd, type "g++ --version" to check if you have sucessfully installed.
