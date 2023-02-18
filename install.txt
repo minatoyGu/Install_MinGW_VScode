@@ -16,4 +16,4 @@ g++ filename.cpp -o output_filename.exe
 .\filename.exe to run
 cd Enter a folder ( you can cd file1\subfile2)
 cd .. Out
-** makefiles need to use: mingw32-make to run
+** makefiles need to use: mingw32-make to run / or you may just remame mingw32-make to make in the bin files.
