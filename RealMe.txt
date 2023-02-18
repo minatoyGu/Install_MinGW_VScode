@@ -10,3 +10,10 @@ This file explained how I install C++ compilers to VSCODE.
 9. In the "Use variables for [username]", choose "path" -> Edit
 10. Add your path (Ends with [...\mingw64\bin])
 11. Go cmd, type "g++ --version" to check if you have sucessfully installed.
+===Termimal controls====
+g++ filename.cpp to compile (Default a.exe)
+g++ filename.cpp -o output_filename.exe
+.\filename.exe to run
+cd Enter a folder ( you can cd file1\subfile2)
+cd .. Out
+** makefiles need to use: mingw32-make to run
