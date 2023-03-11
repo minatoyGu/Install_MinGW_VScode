@@ -1,6 +1,6 @@
 # Installing MinGW with Vscode in Windows 11
 Here is the method for installing C++ compliers to VScode after the official installer was broken:
-This file explained how I install C++ compilers to VSCODE.
+
 1. Download VScode.
 2. Install C/C++ extensions in VScode marketplace.
 3. Go here: https://www.mingw-w64.org/downloads/
