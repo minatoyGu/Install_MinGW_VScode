@@ -12,6 +12,7 @@ Here is the method for installing C++ compliers to VScode after the official ins
 9. In the "Use variables for [username]", choose "path" -> Edit
 10. Add your path (Ends with [...\mingw64\bin])
 11. Go cmd, type "g++ --version" to check if you have sucessfully installed.
+
 ===Termimal controls====
 g++ filename.cpp to compile (Default a.exe)
 g++ filename.cpp -o output_filename.exe
