@@ -14,9 +14,15 @@ Here is the method for installing C++ compliers to VScode after the official ins
 11. Go cmd, type "g++ --version" to check if you have sucessfully installed.
 
 ===Termimal controls====
+
 g++ filename.cpp to compile (Default a.exe)
+
 g++ filename.cpp -o output_filename.exe
+
 .\filename.exe to run
+
 cd Enter a folder ( you can cd file1\subfile2)
+
 cd .. Out
+
 ** makefiles need to use: mingw32-make to run / or you may just remame mingw32-make to make in the bin files.
