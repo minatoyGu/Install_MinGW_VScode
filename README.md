@@ -19,6 +19,10 @@ g++ filename.cpp to compile (Default a.exe)
 
 g++ filename.cpp -o output_filename.exe
 
+With static library linked:
+
+g++ -static-libgcc -static-libstdc++ filename.cpp -o filename.exe
+
 .\filename.exe to run
 
 cd Enter a folder ( you can cd file1\subfile2)
