@@ -23,6 +23,14 @@ With static library linked:
 
 g++ -static-libgcc -static-libstdc++ filename.cpp -o filename.exe
 
+.\filename.exe to run
+
+cd Enter a folder ( you can cd file1\subfile2)
+
+cd .. Out
+
+** makefiles need to use: mingw32-make to run / or you may just remame mingw32-make to make in the bin files.
+
 ===For Python===
 
 Sure! Here's a step-by-step guide on how to package a Python script as an executable using `pyinstaller`:
@@ -66,11 +74,3 @@ That's it! You've successfully packaged your Python script as an executable usin
 
 Important Note:
 If your Python script uses libraries like Selenium, which require additional setup or driver files when running in a headless environment like an executable, make sure to provide the necessary drivers and configurations along with the executable for it to work correctly. Additionally, always test the executable thoroughly before distributing it to ensure all functionalities are working as expected.
-
-.\filename.exe to run
-
-cd Enter a folder ( you can cd file1\subfile2)
-
-cd .. Out
-
-** makefiles need to use: mingw32-make to run / or you may just remame mingw32-make to make in the bin files.
